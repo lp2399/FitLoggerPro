@@ -40,8 +40,9 @@ Before you begin, make sure you have the following:
 For example, if you are using React, you could add the config to a `firebase.js` file like this:
 
 ```js
-import firebase from 'firebase/app';
-import 'firebase/firestore';
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const firebaseConfig = {
   // Paste the contents of the firebaseConfig object here
