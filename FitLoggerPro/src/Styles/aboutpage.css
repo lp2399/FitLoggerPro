@@ -1,0 +1,11 @@
+.open-source {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .donate-cta,
+  .contribute-cta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }

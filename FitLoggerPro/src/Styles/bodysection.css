@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  padding: 20px;
+}
+
+.cta {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.signup-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signup-button:hover {
+  background-color: #0069d9;
+}
