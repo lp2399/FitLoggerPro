@@ -50,9 +50,10 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 export const db = firebase.firestore();
+```
 
 That's it! You have successfully set up Firebase config for your project.
 Troubleshooting
 
-    If you're having trouble retrieving your Firebase config, make sure you have added a Web app to your Firebase project and have selected "Config" from the Firebase SDK snippet dropdown.
-    If you're having trouble using Firebase in your code, make sure you have installed the Firebase SDK and any necessary dependencies, and have imported the appropriate Firebase modules in your code.
+If you're having trouble retrieving your Firebase config, make sure you have added a Web app to your Firebase project and have selected "Config" from the Firebase SDK snippet dropdown.
+If you're having trouble using Firebase in your code, make sure you have installed the Firebase SDK and any necessary dependencies, and have imported the appropriate Firebase modules in your code.
