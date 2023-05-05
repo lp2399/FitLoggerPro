@@ -85,8 +85,7 @@ const FeaturesPage = () => {
               <div className="card-body">
                 <h5 className="card-title">Data Security</h5>
                 <p className="card-text">
-                  Rest assured with robust data security measures of Google
-                  Firebase, you have the ability to delete or retrieve your data
+                  Rest assured with robust data security measures, you have the ability to delete or retrieve your data
                   at any time.
                 </p>
               </div>
